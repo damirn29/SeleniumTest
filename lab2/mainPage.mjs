@@ -3,8 +3,8 @@ import { By } from 'selenium-webdriver';
 class MainPage {
     constructor(driver) {
         this.driver = driver;
-        this.url = 'https://mospolytech.ru/';
-        this.timetableButton = By.xpath('/html/body/header/nav/div[1]/div[2]/div[1]/div/ul/li[3]/a');
+        this.url = 'https://market.yandex.ru';
+        this.timetableButton = By.xpath('/html/body/div[1]/div/div[2]/div[2]/div/header/div[1]/div/div/noindex[1]/div');
     }
 
     async open() {
